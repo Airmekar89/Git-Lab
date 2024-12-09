@@ -216,6 +216,9 @@ Git:
             doc/*.txt
         # ignore all .pdf files in doc/ directory and any of its subdirectories
             doc/**/*.pdf
+    
+    To unstage a file:
+        git rm --cached <filename> <filename2>
                 
 
 
